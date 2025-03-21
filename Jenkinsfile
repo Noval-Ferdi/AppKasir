@@ -6,7 +6,7 @@ pipeline {
  stages {
  stage('Checkout') {
  steps {git branch: 'main', url:
-'https://github.com/Noval-Ferdi/CodeIgniter.git'
+'https://github.com/Noval-Ferdi/AppKasir.git'
  }
  }
  stage('Install Dependencies') {
